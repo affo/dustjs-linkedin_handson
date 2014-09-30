@@ -1,0 +1,1 @@
+(function(){dust.register("test.html",body_0);function body_0(chk,ctx){return chk.write("<p>Hello ").reference(ctx.get(["name"], false),ctx,"h").write("!</p>");}return body_0;})();

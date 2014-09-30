@@ -1,0 +1,25 @@
+{
+  "name": "dustjs_simple_test",
+  "version": "1.0.0",
+  "description": "simple dustjs test",
+  "main": "server.js",
+  "dependencies": {
+    "dustjs-linkedin": "^2.4.2",
+    "express": "^4.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affo/dustjs_simple_test.git"
+  },
+  "author": "affo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/affo/dustjs_simple_test/issues"
+  },
+  "homepage": "https://github.com/affo/dustjs_simple_test"
+}
