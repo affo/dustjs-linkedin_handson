@@ -1,0 +1,7 @@
+{>header /}
+
+{+body}
+	<p>The default body</p>
+{/body}
+
+{>footer /}

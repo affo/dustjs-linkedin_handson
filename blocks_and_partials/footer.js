@@ -1,0 +1,1 @@
+(function(){dust.register("footer",body_0);function body_0(chk,ctx){return chk.write("<p>Footer</p>");}return body_0;})();
