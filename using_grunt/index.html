@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript"
+	src="../node_modules/dustjs-linkedin/dist/dust-core.min.js"></script>
+	<title>What The Dust?!</title>
+</head>
+<body>
+
+	<div id="out"></div>
+
+	<script type="text/javascript" src="built.js"></script>
+	<script type="text/javascript">
+		var ctx = {
+			name: "Affo",
+			names: [
+				{name: "Baffo"},
+				{name: "Saffo"},
+				{name: "Kaffo"},
+			]
+		};
+
+		dust.render("body", ctx, function(err, out){
+			console.log(err);
+			console.log(out);
+			document.getElementById('out').innerHTML = out;
+		});
+	</script>
+</body>
+</html>

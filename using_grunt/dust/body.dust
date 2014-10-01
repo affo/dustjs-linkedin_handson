@@ -1,0 +1,11 @@
+{>layout /}
+
+{<body}
+	<p>Body --> Hello {name}!</p>
+	<ul>
+	{#names}
+		<li>And also, hello to {name}!</li>{~n}
+	{/names}
+	</ul>
+	<p>Now you are using grunt-dustjs-linkedin!</p>
+{/body}
