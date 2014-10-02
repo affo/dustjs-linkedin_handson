@@ -16,7 +16,13 @@ Given this, this is not intended to be a DustJS tutorial.
 Instead, this is a collection of three examples to show how DustJS works apart from its syntax.  
 So, how to compile `.dust` files and how to render them.
 
-There are three folders and each one has a `README.md` that explains what that example does.
+The three examples should be followed in order (from the dummiest to the "most complex"):
+
+1. hello_world
+2. blocks_and_partials
+3. using_grunt
+
+Each folder contains a `README.md` that explains what that example does.
 
 ##Instructions
 
