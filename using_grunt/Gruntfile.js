@@ -12,7 +12,7 @@ module.exports = function(grunt){
 		},
 		
 		watch: {
-			files: ['dust/*.dust'],
+			files: ['dust/**/*.dust'],
 			tasks: ['dust', 'concat']
 		},
 
