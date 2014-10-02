@@ -1,5 +1,5 @@
-#DustJS Hands On
-When I first approached [DustJS](http://linkedin.github.io/dustjs/) I had no difficulties in understanding how the template engine works in terms of syntax (blocks, partials, sections and so on).  
+#DustJS-LinedIn Hands On
+When I first approached [DustJS-LinkedIn](http://linkedin.github.io/dustjs/) (from now on, simply DustJS. The standard DustJS is no more mantained) I had no difficulties in understanding how the template engine works in terms of syntax (blocks, partials, sections and so on).  
 My problem was to understand how to _view the html rendered on a page_ starting from something like:
 
 ```html
