@@ -4,7 +4,7 @@ module.exports = function(grunt){
 			build: {
 				expand: true,
 				cwd: "dust",
-				src: "*",
+				src: "./**/*.dust",
 				dest: "dist",
 				ext: ".js",
 				filter: "isFile"
