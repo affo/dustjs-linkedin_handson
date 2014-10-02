@@ -11,7 +11,7 @@
 
 	<script type="text/javascript" src="header.js"></script>
 	<script type="text/javascript" src="footer.js"></script>
-	<script type="text/javascript" src="body.js"></script>
+	<script type="text/javascript" src="index.js"></script>
 	<script type="text/javascript" src="layout.js"></script>
 	<script type="text/javascript">
 		var ctx = {
@@ -23,7 +23,7 @@
 			]
 		};
 
-		dust.render("body", ctx, function(err, out){
+		dust.render("index", ctx, function(err, out){
 			console.log(err);
 			console.log(out);
 			document.getElementById('out').innerHTML = out;
