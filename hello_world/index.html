@@ -11,7 +11,7 @@
 
 	<script type="text/javascript" src="test.js"></script>
 	<script type="text/javascript">
-		dust.render("test.html", {name: "Affo"}, function(err, out) {
+		dust.render("test", {name: "Affo"}, function(err, out) {
 			console.log(err);
 			console.log(out)
 			document.getElementById('out').innerHTML = out;
