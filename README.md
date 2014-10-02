@@ -1,8 +1,24 @@
-#Simple DustJS Test
-This simple test aims at explaining a simple usage of DustJS.  
-I am a newbie in client side template engines and so It was hard for me to understand what to do with DustJS at the first time!
+#DustJS Hands On
+When I first approached DustJS I had no difficulties in understanding how the template engine works in terms of syntax (blocks, partials, sections and so on).  
+My problem was to understand how to _view the html rendered on a page_ starting from something like:
 
-I am still a newbie, but, at least, `Hello, Affo!` appears on the screen!
+```html
+<ul>
+{#things}
+	<li>{thing}</li>
+{/things}
+</ul>
+```
+
+My doubts where a lot... Such as: "ok, with curly braces I can do anything, but now what do I have to do? Do I have to compile something? Why `dust.render(...)` returns `No template found` ?!" (yes, I am a newbie in this field).
+
+Given this, this is not intended to be a DustJS tutorial.  
+Instead, this is a collection of three examples to show how DustJS works apart from its syntax.  
+So, how to compile `.dust` files and how to render them.
+
+There are three folders and each one has a `README.md` that explains what that example does.
+
+##Instructions
 
 To make the project run on your machine:
 
@@ -13,10 +29,4 @@ $ npm install
 $ node server.js
 ```
 
-The file `test.js` is generated running the command:
-
-```
-$ dustc test.html test.js
-```
-
-from the main folder (maybe you should run something like `./node_modules/dustjs-linkedin/bin/dustc test.html test.js` if DustJS wan't installed globally).
+For infos about the packages used, consult the `package.json` files.
