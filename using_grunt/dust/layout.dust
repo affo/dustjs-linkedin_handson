@@ -1,7 +1,7 @@
-{>header /}
+{>"partials/header" /}
 
 {+body}
 	<p>The default body</p>
 {/body}
 
-{>footer /}
+{>"partials/footer" /}
